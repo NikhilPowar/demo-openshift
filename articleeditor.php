@@ -41,7 +41,7 @@
                     $artID = $_POST['id'];
                     mysqli_stmt_execute($stmt);
                     mysqli_stmt_close($stmt);
-                    header('Location: http://localhost/ThoughtBlog/adminhome.php');
+                    header('Location: adminhome.php');
                     die();
                 }
             }
@@ -91,7 +91,7 @@
                 $i = $id;
                 mysqli_stmt_execute($stmt);
                 mysqli_stmt_close($stmt);
-                header('Location: http://localhost/ThoughtBlog/adminhome.php');
+                header('Location: adminhome.php');
                 die();
             }
         } else if ($id !== NULL) {
