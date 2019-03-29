@@ -1,0 +1,39 @@
+.media-container-row.pt-5{
+	overflow-x: auto;
+	justify-content: left;
+}
+
+.card {
+	height: 24em;
+}
+
+.card-wrapper {
+	height: 24em;
+}
+
+.card-img, .card-img > img{
+	height: 12em;
+}
+
+.card-box {
+	height: 12em;
+}
+
+
+.new-article {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+
+.new-article .mbr-section-subtitle {
+  color: #767676;
+}
+
+.new-article .btn {
+  margin: 0 0 .5rem 0;
+}
+
+.cid-rlfxzjfTdf {
+	padding-bottom: 0px;
+}
