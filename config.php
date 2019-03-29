@@ -1,5 +1,5 @@
 <?php
-	define('DB_SERVER', 'localhost');
+	define('DB_SERVER', 'mysql://mysql:3306/');
 	define('DB_USERNAME', 'dummy');
 	define('DB_PASSWORD', 'dummy');
 	define('DB_DATABASE', 'thoughtblog');
