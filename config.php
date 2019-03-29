@@ -1,5 +1,5 @@
 <?php
-	define('DB_SERVER', 'mysql://mysql:3306/');
+	define('DB_SERVER', '172.30.45.190:3306');
 	define('DB_USERNAME', 'dummy');
 	define('DB_PASSWORD', 'dummy');
 	define('DB_DATABASE', 'thoughtblog');
