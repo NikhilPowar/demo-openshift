@@ -45,7 +45,7 @@
                 mysqli_stmt_close($stmt);
                 if($psw==$p){
                     $_SESSION['username']=$uname;
-                    header('Location: http://localhost/ThoughtBlog/adminhome.php');
+                    header('Location: adminhome.php');
                     die();
                 }
                 else {
