@@ -57,13 +57,13 @@
 
 	function logout() {
 		$.ajax({
-			url: 'http://localhost/ThoughtBlog/adminlogin.php',
+			url: './adminlogin.php',
 			type: 'POST',
 			data: {
 				logout: 'true'
 			},
 			success: function (msg){
-				window.location = "http://localhost/ThoughtBlog/index.php";
+				window.location = "./index.php";
 			},
 			error: function(XMLHttpRequest, textStatus, errorThrown) {
 				console.log(errorThrown);

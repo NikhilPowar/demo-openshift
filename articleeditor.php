@@ -178,21 +178,21 @@
 
     <script type="text/javascript" language="javascript">
         var toAdminHome = function() {
-            window.location = "http://localhost/ThoughtBlog/adminhome.php";
+            window.location = "./adminhome.php";
         }
 
         var deleteArticle = function(articleID) {
             var r = confirm("Warning: Are you sure you want to delete this article? This cannot be undone.");
             if (r == true) {
                 $.ajax({
-                    url: 'http://localhost/ThoughtBlog/articleeditor.php',
+                    url: './articleeditor.php',
                     type: 'POST',
                     data: {
                         id: articleID,
                         del: 'true'
                     },
                     success: function (msg){
-                        window.location = "http://localhost/ThoughtBlog/adminhome.php";
+                        window.location = "./adminhome.php";
                     },
                     error: function(XMLHttpRequest, textStatus, errorThrown) {
                         console.log(errorThrown);
