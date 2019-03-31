@@ -164,7 +164,7 @@
                                 <button type="submit" class="btn btn-primary btn-form display-4">SAVE ARTICLE</button>
                                 <button type="reset" class="btn btn-warning btn-form display-4">RESET</button>
                                 <?php if (isset($_GET['id'])) {
-                                    echo '<button type="button" onclick="deleteArticle(<?php echo $id ?>)" class="btn btn-danger btn-form display-4">DELETE ARTICLE</button>';
+                                    echo '<button type="button" onclick="deleteArticle('.$id.')" class="btn btn-danger btn-form display-4">DELETE ARTICLE</button>';
                                 } ?>
                                 <button type="button" onclick="toAdminHome()" class="btn btn-info btn-form display-4">CANCEL</button>
                             </div>
@@ -196,6 +196,8 @@
                     },
                     error: function(XMLHttpRequest, textStatus, errorThrown) {
                         console.log(errorThrown);
+                        console.log(XMLHttpRequest);
+                        console.log(textSstatus);
                     }
                 });
             } else {
