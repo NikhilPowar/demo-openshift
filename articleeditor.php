@@ -132,7 +132,7 @@
             <div class="row justify-content-center">
                 <div class="media-container-column col-lg-8" data-form-type="formoid">
                     <!---Formbuilder Form--->
-                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" class="mbr-form form-with-styler"
+                    <form action="<?php echo htmlspecialchars('articleeditor.php?id='.$id);?>" method="POST" class="mbr-form form-with-styler"
                         data-form-title="Mobirise Form" enctype="multipart/form-data">
                         <input type="hidden" name="email" data-form-email="true" value="k1LxhAbqOtaFY7efcXdYcd0aoeCJxiSaKTHmiseo/JelKuyOUZiRKkGHh1qoXkuxTim01hAj9nHMyLuqoTRdGFu4MSiAHDPDOv9NVUv/wPo8+zU9+9eKi7nxoCuRhtno">
                         <div class="row row-sm-offset">
